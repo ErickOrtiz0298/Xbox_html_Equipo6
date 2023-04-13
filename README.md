@@ -4,4 +4,4 @@ Alex Gómez
 Erick Ortiz
 Siria Franco
 Mariana Ruiz
-Daniel 
+
