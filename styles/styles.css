@@ -86,3 +86,56 @@ body{
 }
 
 
+
+
+
+
+
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e761c6;
+    --twitter: #55acee;
+}
+.redes-container{
+    display: flex;
+    height: 100vh;
+    align-items: end;
+    justify-content: center;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 40px;
+    height: 200px;
+    text-align:left;
+
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: rgb(230, 206, 178);
+    color:black;
+    line-height: 30px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .4s;
+}
+.redes-container ul:hover a{
+    filter: blur(2px);
+}
+.redes-container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .2);
+    filter: none;
+}
+.redes-container ul li .fab fa-facebook-f:hover{
+    background: var(--fab fa-facebook);
+}
+.redes-container ul li .fab fa-instagram:hover{
+    background: var(--fab fa-instagram);
+}
+.redes-container ul li .fab fa-twitter:hover{
+    background: var(--fab fa-twitter);
+}
