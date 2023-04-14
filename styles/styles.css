@@ -52,6 +52,20 @@ body{
     
 }
 
+.contenedorCaracJuego{
+    display: flex;
+}
+
+.imgCaracJuego{
+    height: 600px;
+
+}
+
+.textoCaracJuego{
+    background-color: #107c10;
+    padding: 100px 90px;
+    text-align: left;
+}
 
 
 
