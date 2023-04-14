@@ -56,6 +56,10 @@ body{
     display: flex;
 }
 
+.contenedorDetJuego{
+    background-color: #fff;;
+}
+
 .imgCaracJuego{
     height: 600px;
 
@@ -63,9 +67,22 @@ body{
 
 .textoCaracJuego{
     background-color: #107c10;
+    color: #fff;
     padding: 100px 90px;
     text-align: left;
 }
 
+.textoNegro{
+    background-color: #fff;
+    color: black;
+}
+
+.textoBlanco{
+    color:#fff
+}
+
+.textoVerde{
+    color:#107c10
+}
 
 
