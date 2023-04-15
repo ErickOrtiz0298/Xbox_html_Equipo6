@@ -56,8 +56,15 @@ body{
     display: flex;
 }
 
-.contenedorDetJuego{
-    background-color: #fff;;
+.contenedorBlanco{
+    background-color:#fff;
+    margin: 0px 0px 0px 0px; /*arriba, derecha, abajo, izquierda*/
+    word-spacing: normal;
+}
+
+.contenedorM{
+    background-color: #fff;
+    display: flex;
 }
 
 .imgCaracJuego{
@@ -68,17 +75,21 @@ body{
 .textoCaracJuego{
     background-color: #107c10;
     color: #fff;
-    padding: 100px 90px;
+    padding: 100px;
     text-align: left;
 }
 
 .textoNegro{
     background-color: #fff;
     color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .textoBlanco{
-    color:#fff
+    color: #fff;
 }
 
 .textoVerde{
