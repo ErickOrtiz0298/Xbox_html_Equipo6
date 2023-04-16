@@ -3,6 +3,66 @@ body{
     color:white;
 }
 
+/*Menu de opciones*/
+.menuDeplegable{
+    margin:0 auto;
+    position:relative;
+}
+
+.logo_microsoft img{
+    height: 100px;
+    position:absolute;
+    top:0px;
+    left: 25px;
+}
+.logo_xbox img{
+    height: 50px;
+    position:absolute;
+    left: 165px;
+    top: 30px;
+}
+
+nav{
+    position:absolute;
+    top:25px;
+    left:250px;
+}
+
+nav li{
+    display: inline;
+    margin: 1px -10px 0px 0px;
+    padding: 16px 30px 16px 2px;
+}
+
+
+nav a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #F2F2F2;
+    font-size: 13px;
+    text-decoration: none;
+   }
+
+nav a:hover{
+    color: #FFFFFF;
+    /* para el rallado */
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    
+   }
+
+.segundo_menu_imagenes{
+    margin: 0 5 px;
+    display: flex;
+    justify-content: right;
+}
+.redimensionar_segundas_imagenes{
+    height: 35px;
+    width: 35px;
+}
+
+/*Primera Seccion*/
+
+
 .container_primeraSeccion{
     width: 100%;
     height: 750px;
