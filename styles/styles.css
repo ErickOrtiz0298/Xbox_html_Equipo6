@@ -3,9 +3,133 @@ body{
     color:white;
 }
 
+/*Menu de opciones*/
+*{
+    margin: 0px;
+
+}
+
+.navegacion {
+    background-color: #000;
+    opacity: 90%;
+    text-align: center;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 2px 2px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+
+.menu li a:hover{
+    color:  #3eff3f;
+    text-decoration: underline;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #1D1D1D;
+    width: 200%;
+    visibility: hidden;
+    opacity: 100%;
+    /* transition: all .05s; */
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu li {
+    display: block;
+    padding: 1px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+}
+
+.menuDeplegable{
+    margin:0 auto;
+    position:relative;
+}
+
+.logo_microsoft img{
+    height: 100px;
+    position:absolute;
+    top:0px;
+    left: 25px;
+}
+.logo_xbox img{
+    height: 50px;
+    position:absolute;
+    left: 165px;
+    top: 30px;
+}
+
+nav{
+    position:absolute;
+    top:25px;
+    left:250px;
+}
+
+nav li{
+    display: inline;
+    margin: 1px -10px 0px 0px;
+    padding: 16px 30px 16px 2px;
+}
+
+
+nav a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: #F2F2F2;
+    font-size: 13px;
+    text-decoration: none;
+   }
+
+nav a:hover{
+    color: #FFFFFF;
+    /* para el rallado */
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    
+   }
+
+.segundo_menu_imagenes{
+    margin: 0 5 px;
+    display: flex;
+    justify-content: right;
+}
+.redimensionar_segundas_imagenes{
+    height: 35px;
+    width: 35px;
+}
+
+/*Primera Seccion*/
+
+
 .container_primeraSeccion{
     width: 100%;
-    height: 750px;
+    height: 800px;
+    text-align: center;
 }
 
 
@@ -16,7 +140,7 @@ body{
     width: 380px; 
     height: 180px;
     position:relative;
-    transform: translate(200%, -200%);
+    transform: translate(300%, -300%);
 
 }
 
@@ -62,6 +186,11 @@ body{
     word-spacing: normal;
 }
 
+.contenedorNegro {
+    background-color: #000;
+    padding: 15px;
+}
+
 .contenedorM{
     background-color: #fff;
     display: flex;
@@ -75,7 +204,7 @@ body{
 .textoCaracJuego{
     background-color: #107c10;
     color: #fff;
-    padding: 100px;
+    padding: 200px 100px;
     text-align: left;
 }
 
@@ -149,4 +278,59 @@ body{
 }
 .redes-container ul li .fab fa-twitter:hover{
     background: var(--fab fa-twitter);
+}
+
+/*Footer*/
+.contenedorInfo{
+
+padding: 20px;
+background-color: #d2d2d2;
+color: #505050;
+text-decoration: none;
+} 
+
+.subcontenedorInfo{
+text-decoration: none;
+}
+
+.contenedorInfo > li {
+    text-decoration: none;
+    text-align: left;
+}
+
+.contenedorInfo > ul {
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+}
+
+.contenedorInfo > li {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.subcontenedorInfo li a {
+    text-decoration: none;
+}
+
+.contenedorInfo > li > ul  {
+    font-weight: normal;
+    color: #505050;
+    text-decoration: none;
+}
+.contenedorInfo > li > ul > li a {
+    font-weight: normal;
+    color: #505050;
+    text-decoration: none;
+    margin: 0px;
+}
+.subcontenedorInfo ul a {
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.contenedorInfo li a:hover {
+    text-decoration: underline;
+
 }

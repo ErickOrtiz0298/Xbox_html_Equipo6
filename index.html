@@ -6,44 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="icon" href="./img/xbox_logo.png">
+    <link rel="icon" href="./img/xbox_logo.png" >
     <link rel="stylesheet" href="./styles/styles.css">
     <title>ELDEN RING</title>
 </head>
 <body>
     <!--Menu de opciones-->
-    <div class="menuDesplegable">
-        <a href="https://www.microsoft.com/es-mx/">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732221.png" alt="" style="height: 25px;" >
-        </a>
-        <a href="https://www.xbox.com/es-MX/?xr=mebarnav">
-            <img src="https://www.freepnglogos.com/uploads/xbox-png-images-free-download-xbox-gamepad-png-1.png" alt="" style="height: 25px;" >
-        </a>
-        <a href="##">Gamepass</a>
-        <a href="##">Juegos</a>
-        <a href="##">Dispositivos</a>
-        <a href="https://www.xbox.com/es-MX/play?xr=shellnav">Juega</a>
-        <a href="##">Comunidad</a>
-        <a href="##">Más</a>
-        <div class="desplegar">
-            <button class="botonDesplegar">Desplegar
-                <i class="bajar"></i>
-            </button>
-            <div class="contenidoDesplegado">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-                
-            </div>
-            
-        </div>
-    </div>
+    <header>
+        <nav class="navegacion">
+            <ul class="menu" >
+                <li><a href="https://www.microsoft.com/es-mx/"><img src="./img/microsoft_logo.png" alt="Microsoft logo" height="25px"></a> </li>
+                <li><a href="https://www.xbox.com/es-MX/?xr=mebarnav"><img src="./img/xbox-menu-opciones.jpg" alt="Logo Xbox" height="20px"></a> </li>
+                <li><a href="">Game Pass</a>
+                    <ul class="submenu" > 
+                        <li><a href="https://www.xbox.com/es-MX/xbox-game-pass?xr=shellnav">Descripción general</a></li>
+                        <li><a href="https://www.xbox.com/es-mx/xbox-game-pass/games?xr=shellnav">Explorar juegos</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/xbox-game-pass/pc-game-pass?xr=shellnav">PC Game Pass</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/cloud-gaming?xr=shellnav">Xbox Clud Gaming(Beta)</a></li>
+                        <li> <a href="https://www.xbox.com/es-MX/live/gold?xr=shellnav">Xbox Live Gold</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Juegos</a>
+                    <ul class="submenu">
+                        <li><strong>Juegos de consola</strong></li>
+                        <li><a href="https://www.xbox.com/es-mx/browse/games/console?PlayWith=XboxSeriesX%7CS,XboxOne,CloudGaming,XboxPlayAnywhere&xr=shellnav">Explora todos los juegos para consola</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/games/optimized?xr=shellnav">Juegos optimizados</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/games/backward-compatibility?xr=shellnav">Juegos con compatibilidad con versiones anteriores</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/live/gold?xr=shellnav#gameswithgold">Games with Gold</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/live/gold?xr=shellnav#dealswithgold">Deals with Gold</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Dispositivos</a> 
+                    <ul class="submenu">
+                        <li>Consolas</li>
+                        <li><a href="https://www.xbox.com/ES-MX/consoles?xr=shellnav">Xbox Consolas</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/consoles/xbox-series-x?xr=shellnav">Xbox Series X</a></li>
+                        <li><a href="https://www.xbox.com/ES-MX/consoles/xbox-series-s?xr=shellnav">Xbox Series S</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/xbox-all-access?xr=shellnav">Xbox All Access</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/consoles/all-consoles?xr=shellnav">Comprar todas las consolas</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/where-to-buy?xr=shellnav">Dónde comprar</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.xbox.com/es-MX/play?xr=shellnav" target="_blank">Juega</a>
+                </li>
+                <li><a href="">Comunidad</a>
+                    <ul class="submenu">
+                        <li><strong>Comunidad</strong></li>
+                        <li><a href="https://www.xbox.com/es-MX/live/gold?xr=shellnav">Juego multijugador</a></li>
+                        <li><a href="https://news.xbox.com/es-latam/?xr=shellnav">Noticias de Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Soporte técnico</a>
+                    <ul class="submenu">
+                        <li><a href="https://support.xbox.com/es-MX/">Inicio de soporte técnico</a></li>
+                        <li><a href="https://support.xbox.com/es-MX/xbox-live-status">Estado de Xbox</a></li>
+                        <li><a href="">Temas de ayuda</a></li>
+                        <li><a href="https://support.xbox.com/es-MX/help/accessible-gaming">Juegos accesibles</a></li>
+                        <li><a href="https://support.xbox.com/es-MX/help/hardware-network/settings-updates/whats-new-xbox-one-system-updates">Actualizaciones del sistema Xbox</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Mi Xbox</a>
+                    <ul class="submenu">
+                        <li><a href="http://account.xbox.com/es-MX/social?xr=shellnav">Inicio</a></li>
+                        <li><a href="http://account.xbox.com/es-MX/Profile?xr=shellnav">Perfil</a></li>
+                        <li><a href="https://www.xbox.com/es-MX/wishlist?xr=shellnav">Lista de deseos</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Desarrolladores</a>
+                    <ul class="submenu">
+                        <li><a href="https://www.xbox.com/es-MX/publish?xr=shellnav">Juegos</a></li>
+                        <li><a href="https://dev.windows.com/games?xr=shellnav">Windows</a></li>
+                    </ul>
+                </li>
+                <li><p>                               </p></li>
+                <li><a href="">Todo Microsoft</a>
+                    <ul class="submenu">
+                        <li><a href="">Microsoft 365</a></li>
+                        <li><a href="">Teams</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Buscar <img src="./img/search_icon.jpg" alt="Buscar" class="redimensionar_segundas_imagenes"> </a> </li>
+                <li><a href="https://www.xbox.com/es-MX/cart" target="_blank">Carro <img src="./img/carrito_compras.jpg" alt="" class="redimensionar_segundas_imagenes"> </a> </li>
+                <li><a href="https://login.live.com/oauth20_authorize.srf?client_id=1f907974-e22b-4810-a9de-d9647380c97e&scope=xboxlive.signin+openid+profile+offline_access&redirect_uri=https%3a%2f%2fwww.xbox.com%2fauth%2fmsa%3faction%3dloggedIn%26locale_hint%3des-MX&response_type=code&state=eyJpZCI6IjEyMGYwMWFlLTUyODQtNDQ4NC05Yzk1LWEwMDhiOWI5MmYxMyIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d%7chttps%253A%252F%252Fwww.xbox.com%252Fes-MX%252Fgames%252Felden-ring&response_mode=fragment&nonce=7b2167c0-ec79-4ae0-be12-1201667705d3&prompt=login&code_challenge=Vch91OjMCv5UIJIkU00ryIcTjwfi8Y51AGEKPf1G9F8&code_challenge_method=S256&x-client-SKU=msal.js.browser&x-client-Ver=2.32.2&uaid=6f67e7bf49bc484a9bbef58552655098&msproxy=1&issuer=mso&tenant=consumers&ui_locales=es-419&client_info=1&epct=PAQABAAEAAAD--DLA3VO7QrddgJg7WevrlDuX1jO1K_qrhMXIdlqRnvb7YUmMb1FlJrovmv44VBG1stlUftgx1-D2-XiM3qsH7_0Qz0B7_VMvpVz7O2Y3WfytiysD60PMYk4Dyb7jq4346G-mydtZSpnXUq6vUhyrWAja_sAs0OpeKbnPDzuSMyKYriGGacLi4PsEOolCWjGhLoAQ_4SCuIpMbDjqKYfNVPtIseYl-jxRXJDPjLlyTyAA&jshs=0#" target="_blank"> Iniciar sesión <img src="./img/user_icon.jpg" alt="Logo inicio sesión" class="redimensionar_segundas_imagenes"></a></li>
+                </ul>
+            </nav>   
+    </header>
 
-
-    <!--1er Segmento-->
+    <!--Elemento Principal-->
     <section class="container_primeraSeccion">
         <div class="imagen_primeraSeccion">
-            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png" width = "100%" height="750px" alt="imagen principal">
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/phvVT0qZfcRms5qDAk0SI3CM.png" width = "95%" height="800px" alt="imagen principal">
         </div>
         <div class = "primeraSeccion--cajaSeccion">
             <p class="primeraSeccion--cajaSeccion-Texto1" style="text-align: center;">Elden Ring</p>
@@ -55,16 +107,18 @@
 
     
     <!--introducción (Álzate a la luz, Novedades Elden Ring)-->
+    <div class="contenedorNegro">     
     <br>
     <h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #fff;" >ÁLZATE, SINLUZ</h1>
     <p style="text-align: center;" >
         Déjate guiar por la gracia para usar el poder del Anillo de Elden y conviértete en un Señor de Elden en las Tierras Intermedias.
     </p>
+    </div>
 
     <!--Barra Horizontal de Corrimiento-->
     <h2 style="text-align: center;" >Avances y jugabilidad.</h2>
     <style>
-        .barra-panel {overflow:auto; position:absolute; left:10px; top:125%; width:98.5%; right:20; height:325px; z-index:1; }
+        .barra-panel {overflow:auto; position:relative; left:10px; top:125%; width:98.5%; right:20; height:325px; z-index:1; }
 		.barra-Scroll {width: 2600px;} 
 		.contiene-Item {width: 500px; height: 180px; float: left;}
     </style>
@@ -79,36 +133,22 @@
         </div>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <h2 style="text-align: center;" >Novedades de Elden Ring</h2>
-    <div class="contenedorBlanco" >
+    <br>
+    <div class="contenedorBlanco">
         <img style="align-items: center; width: 1670px;" src="https://assets.xboxservices.com/assets/d1/d1/d1d17538-a6da-4fa6-8662-161771fcf713.jpg?n=4793103583_Sneaky-Slider-1084_171525_1600x675.jpg" alt="img menu horizontal">
         <div class="textoNegro">
             <h2 style="color: #107c10;">Nuevo contenido ahora disponible en las Tierras Intermedias</h2>
             <p>
                 ¡Sinluz, lucha por la gloria dentro de los Coliseos! En el parche más reciente de Elden Ring, los jugadores tendrán acceso a nuevas características, incluidos nuevos modos PvP.
             </p>
+            <br>
         </div>
     </div>
 
     <!--Características del juego (Imagenes con texto a un lado)-->
     <h2 style="text-align: center;">Características del juego</h2>
-    
+    <br>
     <div class="contenedorCaracJuego">
         <div class="textoCaracJuego">
             <h2> Un nuevo mundo de fantasía </h2>
@@ -152,6 +192,7 @@
                 <br>
                 George R.R. Martin es el autor número 1 de bestseller del New York Times de muchas novelas, incluyendo la aclamada serie A Song of Ice and Fire - Juego de Tronos, A Clash of Kings, A Storm of Swords, A Feast For Crows y A Dance with Dragons. Como escritor y productor, ha trabajado en La Dimensión Desconocida, La Bella y la Bestia, y en varios largometrajes y pilotos que nunca fueron realizados. Vive con la encantadora Parris en Santa Fe, Nuevo México.
              </p>
+             <br>
             <h3>Información adicional</h3>
             <div class="contenedorM">
                 <img src="https://store-images.microsoft.com/image/global.53975.image.32437939-2f27-4e79-8431-5f5866f32908.3dc74b18-4153-423c-b367-bdcfd34ac658" alt="M ESRB" style="height: 70px;">
@@ -205,6 +246,39 @@
             <li><a href="https://twitter.com/xboxMexico" class="twitter"><i class="fab fa-twitter"></i></a></li>
         </ul>
     </div>
+    <!--Footer-->
+    <footer class="contenedorInfo">
+        <ul class="contenedorInfo">
+            <li>Examinar
+                <ul class="subcontenedorInfo">
+                    <li><a href="https://www.xbox.com/ES-MX/consoles?xr=footnav">Xbox consolas</a></li>
+                    <li><a href="https://www.xbox.com/ES-MX/games?xr=footnav">Juegos de Xbox</a></li>
+                    <li><a href="https://www.xbox.com/ES-MX/xbox-game-pass?xr=footnav">Xbox Game Pass</a></li>
+                </ul>
+            </li>              
+            <li>Recursos
+                <ul class="subcontenedorInfo">
+                    <li><a href="https://news.xbox.com/es-latam/?xr=footnav">Noticias de Xbox</a></li>
+                    <li><a href="https://support.xbox.com/?xr=footnav">Soporte técnico de Xbox</a></li>
+                    <li><a href="https://aka.ms/xboxideas?xr=footnav">Comentarios</a></li>
+                </ul>
+            </li>        
+            <li>Microsoft Store
+                <ul class="subcontenedorInfo">
+                    <li><a href="https://account.microsoft.com/?xr=footnav">Cuenta de Microsoft</a></li>
+                    <li><a href="https://support.microsoft.com/ES-MX/account-billing/contact-microsoft-store-support-4f615f2a-6bbd-fd69-6695-ae213d63eef0?xr=footnav">Soporte técnico</a></li>
+                    <li><a href="https://support.microsoft.com/ES-MX/account-billing/returning-items-you-bought-from-microsoft-store-for-exchange-or-refund-81629012-aa4f-f48b-2394-8596f415072b?xr=footnav">Devoluciones</a></li>
+                </ul> 
+            </li>       
+            <li>Para desarrolladores
+                <ul class="subcontenedorInfo">
+                    <li><a href="https://www.xbox.com/ES-MX/developers?xr=footnav">Juegos</a></li>
+                    <li><a href="https://www.xbox.com/ES-MX/developers/id?xr=footnav">ID@Xbox</a></li>
+                    <li><a href="https://dev.windows.com/games?xr=footnav">Windows</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
 </body> 
 </html> 
 
